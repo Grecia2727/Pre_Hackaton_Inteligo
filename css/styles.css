@@ -1,0 +1,64 @@
+body {
+	background-color: #ffffff;
+}
+
+.admin {
+	text-align: right;
+}
+.main {
+	text-align: center;
+}
+
+.none {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.quetions {
+	text-align: center;
+}
+
+/* =============================== */
+/*     Login del Administrador     */
+/* =============================== */
+h2 {
+color:#333333; 
+text-align: center;
+font-size: 30px;
+margin-bottom: 20px;     
+}
+
+h3
+{
+color: #333333;  
+text-align: center;
+margin-bottom: 20px;     
+}
+
+form {
+width:450px;
+margin: auto;     
+background: #ffffff; 
+padding: 10px 20px;  
+box-sizing: border-box;    
+margin-top: 20px;
+border-radius: 7px;  
+}
+
+input {
+width: 100%;
+margin-bottom: 20px;
+padding: 7px;
+box-sizing: border-box;
+font-size: 17px;
+border: none;    
+}
+
+#boton {
+background: #9CE8F7;    
+padding: 15px;    
+}
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  <script type="text/javascript" language="javascript" src="./js/splash.js"></script>
+</head>
+
+<body>
+
+  <!-- Portada de Bienvenida a Inteligo -->
+  <div class="main" id="form_main">
+    <div>
+      <img src="img/inteligosab2.jpg">
+      <button type="button" id="admin" class="admin"> Soy Administrador</button>
+    </div>
+
+    <div>
+      <h1>Bienvenido a Inteligo</h1>
+      <h4>Descubre tu perfil de Inversor:</h4>
+      <img src="img/woman/woman3.PNG">
+      <button type="button" id="start"> Empezar</button>
+    </div>
+  </div>
+
+  <!-- Formulario de preguntas para el inversionista -->
+  <div class="questions none" id="form_questions">
+    <form>
+      <h3>¿Requiere generar ingresos los cuales utilizará periodicamente? </h3>
+      <img src="./img/woman/woman1.PNG">
+      <input type="button" id="option_a" value="alternative1" />
+      <input type="button" id="option_b" value="alternative1" />
+      <input type="button" id="option_c" value="alternative1" />
+      
+      <button type="button" value="Cerrar" id="close_form_questions"> Cerrar </button>
+      <button type="button" value="Siguiente" id="next_form_administrator"> Siguiente </button>
+    </form>
+  </div>
+
+  <!-- Login y formulario del Administrador -->
+  <div class="none" id="form_administrator">
+    <form>
+      <h2>Login del administrador</h2>
+      <h3 id="nombreHtml">Identificate</h3>
+      <input type="text" id="txt_nombre" placeholder="Ingresa tu nombre" required>
+      <input type="text" id="txt_password" placeholder="Ingresa tu password" required>
+
+      <input type="button" value="Atras" id="close_form_administrator">
+    </form>
+  </div>
+
+  <!-- Mostrando resultado del inverionista -->
+  <div class="none" id="form_result">
+    <form>
+      <img src="./img/woman/woman2.PNG">
+      <input type="button" value="Seleccionar perfil" id="select_profile">
+      <input type="button" value="volver a realizar mi test" id="go_back">
+    </form>
+  </div>
+
+  <!-- Visualizando los graficos segun perfil -->
+  <div id="form_graphic" class="none">
+    <form>
+      <img src="./img/graficos/agresivo.PNG">
+      <input type="button" value="Enviar " id="register_date">
+    </form>
+  </div>
+
+  <script src="./js/dom.js"> </script>
+  <script src="./js/mandrill.js"> </script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+  <script src="./js/firebase.js"> </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+ 
+  
+</body>
+</html>
